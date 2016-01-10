@@ -433,6 +433,8 @@ def main():
 	while waitForLogin() != '200':
 		pass
 
+
+
     os.remove(QRImagePath)
 
     if not login():
