@@ -430,7 +430,7 @@ def main():
     showQRImage()
     time.sleep(1)
 
-	while waitForLogin() != '200':
+    while waitForLogin() != '200':
 		pass
 
 
